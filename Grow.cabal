@@ -57,9 +57,10 @@ executable Grow
   -- other-extensions:    
   
   -- Other library packages from which modules are imported.
-  build-depends:       base >=4.7 && <4.8,
-                       GLUT,
-                       OpenGL
+  build-depends:       GLUT
+                     , OpenGL
+                     , base >=4.7 && <4.8
+                     , random
   
   -- Directories containing source files.
   -- hs-source-dirs:      
